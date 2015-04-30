@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D79E6A2-491A-E1D3-0031-0734507AC4B8" name="scoreHistorical_subjectAssessment_FK">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:32:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<containerWithKeyObject>56401BBD-940D-A620-BBD7-797537096B30</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>D6086C61-F044-0DAA-16BD-9FDA132B61F8</localFKIndex>
+<keyObject>024046E0-17F1-8F12-5968-32F6F787FF36</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

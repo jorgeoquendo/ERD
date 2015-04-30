@@ -1,0 +1,375 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B5F5F75-25FC-0EC1-B708-AC5B521055BA" name="customer">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>BD222EF3-89B5-6CFB-A98B-0BC681A780AA</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F7FAF173-B81F-D2D3-5A30-CC9C2C5A6254">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>899D0096-840E-88B6-2998-AEADCB6E8033</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="parentId" id="E06C6396-6F8A-86A2-DF2E-602FC214C192">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>42CD082B-DE67-DF2E-8185-C4500C098987</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="customerName" id="17F82311-D1F1-A219-FDB2-84A0AEA5BAF5">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>F49F247E-5C21-49B1-CA11-FB5C59BA816C</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+</Attribute>
+<Attribute name="region" id="E33F9847-7952-CFF0-174C-008E2423CFDF">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>C6DF65E9-B27C-CF8E-3BDF-BAF5F69EFE38</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>104</dataTypeSize>
+</Attribute>
+<Attribute name="customerCode" id="14620F2A-0FA0-6717-C689-7394408837B5">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>48CD6112-EB17-D1E4-D687-7CB47520838A</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+</Attribute>
+<Attribute name="liveLending" id="67F0D4D9-D786-C61B-3A32-9315F4A81605">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>27DAD870-4704-BE18-F6EF-08CC1FA58AA6</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<defaultValue>y</defaultValue>
+</Attribute>
+<Attribute name="scoringTimeInterval" id="23452A81-9BF9-6018-C85D-425F0CF78396">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>4EC1722A-3DF2-426E-AD4C-53600C7B5A1E</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>1800</defaultValue>
+</Attribute>
+<Attribute name="streetAddress1" id="B6895C67-876B-A0C5-FE25-B62B43CC7E67">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>A3EBF018-7F4B-EB8A-6C8B-2A21539080AD</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+</Attribute>
+<Attribute name="streetAddress2" id="99B8FC6B-E685-52CE-B274-A023283A03DB">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>43999D78-A77D-8E80-5621-6E19E8E67BA5</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+</Attribute>
+<Attribute name="streetAddress3" id="1A68507D-17EE-3539-33A7-D0625636D686">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>B8745B59-F44C-AF80-EE6C-6E3FD04AEF97</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="46BBB109-7276-D321-0E60-2E09FE90C4DF">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>253BA211-393D-DAE6-11A4-95A90A7BE333</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>104</dataTypeSize>
+</Attribute>
+<Attribute name="province" id="BA23C6E5-DFA3-1703-48A3-C0EAAD95F2D0">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>09720A04-C758-5EF8-FED7-88D749E4099F</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>104</dataTypeSize>
+</Attribute>
+<Attribute name="postalCode" id="C217D255-D0D9-9484-C157-01780C16947F">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>44E73290-137D-D4FB-068D-CF6971A24EEC</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+</Attribute>
+<Attribute name="country" id="2DFC8163-AA43-2E1B-F84C-ADC6CEA9EA29">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>69D9E6F5-F0D5-B994-BF61-015251CD13AD</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>104</dataTypeSize>
+</Attribute>
+<Attribute name="timeZoneOffset" id="3E79A0AA-FA77-0920-ECAE-24B2FC86C02A">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>421C60E8-C753-EE24-B147-E5CCEBB02161</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+</Attribute>
+<Attribute name="language" id="68A45C32-DECB-3D8E-5FC6-FF4D3190BF2F">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>EE933BEB-0E61-0BC3-CF0C-5C582CF535D9</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+</Attribute>
+<Attribute name="templateColor" id="AFD1D85C-325A-A5E8-F1C7-21F413C068E7">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>2247AE03-086C-1E87-230A-865FACF8E70C</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<defaultValue>red</defaultValue>
+</Attribute>
+<Attribute name="brandLogo" id="D07D57E1-7EA7-90E4-13A0-835F75EE3DA2">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>513C9528-9BE4-45F3-3A44-E1F6F1FCE778</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<defaultValue>efl_logo_white_transparent.png</defaultValue>
+</Attribute>
+<Attribute name="createdDate" id="0D960069-3ECF-4FBD-EC54-63EADAD637C3">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>5132C248-A7C8-DD2E-A39D-D626A2D60B61</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="lastModifiedDate" id="3F44ADBB-7C67-6186-178D-CF8F735D6675">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>6D6D12D9-7F20-55BF-6123-342BA624CC29</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="currencyDefault" id="4B9EAFFB-22AE-917C-4D6C-4AF79171210F">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>2769D49E-8AB0-2468-3D94-9757B87B9291</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+</Attribute>
+<Attribute name="accountManagers" id="87F97A00-3DF6-7A28-0400-90E66439208C">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>4CA050A9-9A02-37B0-32F8-78023ED04CE0</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<defaultValue>accountmanagers@eflglobal.com</defaultValue>
+</Attribute>
+<Attribute name="dataShardId" id="A2EAA788-0490-FC4A-10FB-150D6ECB1406">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>50D9D558-C9B3-2053-F372-E760707019C1</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>1</defaultValue>
+</Attribute>
+<Attribute name="identificationtypesmappingjson" id="26FC9027-B2E2-1EFC-1280-7E1378A878FE">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>336FA0F1-B1AE-6455-8F8F-27DCB8F0ED0A</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2048</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68325B63-9FAB-6EFE-D440-413BE308CEE3" name="PRIMARY">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>A0F053F7-AAED-9EDA-2A82-C6BBDAF434BE</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7FAF173-B81F-D2D3-5A30-CC9C2C5A6254</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="9BE5DCD5-8630-8DBB-F194-39FB91DDA193" name="customerCode">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>A8D24FCB-497C-5588-10A1-1DB30BCF9DDA</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>14620F2A-0FA0-6717-C689-7394408837B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

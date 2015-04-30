@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B7CD5B9-96EB-E495-B11C-573C3C99FC22" name="identificationType">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>identificationType</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<schemaObject>28BE4F34-3645-F801-E213-17B865220405</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D0308AD4-9AE2-99BD-6629-F5BC87ACD943">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>identificationType</sourceObjSchema>
+<sourceObjName>id</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idTypeName" id="A33F303B-6185-1DCE-2E30-95F90F3D7BB6">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>identificationType</sourceObjSchema>
+<sourceObjName>idTypeName</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idTypeDescription" id="69806811-4D07-D029-F4B9-0CAD41E11BC0">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>identificationType</sourceObjSchema>
+<sourceObjName>idTypeDescription</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>104</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idTypeStatus" id="F8D21D12-A098-E448-3C09-22FE04ACE763">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>identificationType</sourceObjSchema>
+<sourceObjName>idTypeStatus</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<defaultValue>active</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdDate" id="5F6852E7-8F88-2209-A56F-E2B06EB4C3E8">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>identificationType</sourceObjSchema>
+<sourceObjName>createdDate</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastModifiedDate" id="D6834936-930A-0447-DB55-CD62F8FCD8DA">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>identificationType</sourceObjSchema>
+<sourceObjName>lastModifiedDate</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3623DAFD-FC71-4736-CD3F-BC36A5F677BF" name="identificationType_PK">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0308AD4-9AE2-99BD-6629-F5BC87ACD943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

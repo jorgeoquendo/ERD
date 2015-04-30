@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="10B29688-A84A-359E-0FFA-39E8335D58F5" name="answerReliability" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1BA06EC0-B1DD-BFCE-BF85-BADAA09E2BC0" name="model" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2705F60D-B3DE-F70C-E379-EDCB30FF7ADB" name="subjectIdNumber" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2D66F956-9671-8BAC-AAC6-F5D1952319DF" name="identificationType" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5506F4CC-4BDC-89C9-97BE-40C57E3D757E" name="scoreVersion" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5B5F5F75-25FC-0EC1-B708-AC5B521055BA" name="customer" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6D48DF6F-B63F-4111-0F12-806532A34FBE" name="location" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7CB7469B-9E22-E03B-30DC-C6DB3036947F" name="subjectAssessment" seqName="seg_0"/>
+   <object objectType="Entity" objectID="85B600E1-9F55-8817-0E72-37D675944D0E" name="subjectAttachment" seqName="seg_0"/>
+   <object objectType="Entity" objectID="89C67A56-B81C-5709-6F3E-DDAB7F5546FB" name="subject" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8F13365A-B9A5-8938-03A8-EE8CFE41AFC8" name="assessmentResponse" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B04F4971-F386-64A8-DF9C-6655BCB2F60F" name="scoring integrityDetail" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BD445CA6-DEDD-CBE3-0F69-6AEE0017AABA" name="scoringVariableMap" seqName="seg_0"/>
+   <object objectType="Entity" objectID="EFC25AA9-2671-9970-4E6D-F8587CB4F0AF" name="scoreHistorical" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F0813891-011A-ED68-A775-CF4295D99810" name="subjectLinker" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FCDD67F5-CA5C-2E11-C914-000C36E75496" name="customerAssessment" seqName="seg_0"/>
+   <object objectType="Relation" objectID="183477C3-E577-4636-70C8-4BF22CB6C61E" name="subjectAssessment_customerAssessment_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1AAAB288-62A5-049E-C33A-8CB7260D607E" name="scoringVariableMap_model_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2BED62DD-E200-883E-AB11-15BEF9E2ECB6" name="subjectAssessment_location_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4AEC526F-550A-454E-AF9B-BB2E968F6610" name="fk_model_versioncode" seqName="seg_0"/>
+   <object objectType="Relation" objectID="64350988-2763-641D-FB6D-98F148B77F4E" name="subjectIdNumber_identificationType_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8F446073-9619-FC98-B5E4-314267BF7CD9" name="subject_subjectIdNumber_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="93936625-E3CC-B654-58BB-4104DAC816F8" name="scoring_integrityDetail_subjectAssessment_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="ADC7D233-76D4-7FB2-D213-8EC5006F726F" name="fk_scoreVersion_customerAssessment" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B7AE04A3-E0E8-9813-F328-936AE603711C" name="subjectLinker_subjectAssessment_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BAD2F693-D6C0-164B-D906-D166D2D4D402" name="assessmentResponse_subjectAssessment_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C9E1C3E2-5539-1614-B1B9-E295D70383EA" name="subjectAssessment_subject_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CA2949F5-ED0C-ACEF-4829-B74A5CE88263" name="customerAssessment_customer_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DE663972-DD6E-5766-1DC2-98B8E526F537" name="scoreHistorical_subjectAssessment_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EC2E4040-804B-93C8-6900-AC5DDE411FE4" name="fk_sbjasmt_id" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34059BEF-7685-C349-8E31-6B6363B9DE97" name="subjectIdNumber">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>subjectIdNumber</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<schemaObject>28BE4F34-3645-F801-E213-17B865220405</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C026BC50-C131-3736-ABF4-6BCEBE5371C0">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectIdNumber</sourceObjSchema>
+<sourceObjName>id</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subjectId" id="D94BB188-63FC-65B2-2FF2-0CDA70533296">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectIdNumber</sourceObjSchema>
+<sourceObjName>subjectId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificationTypeId" id="B9085C74-F30F-994F-2CE6-71A8BCCD7AAC">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectIdNumber</sourceObjSchema>
+<sourceObjName>identificationTypeId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>D0308AD4-9AE2-99BD-6629-F5BC87ACD943</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02053572-554A-A558-701A-F362B14245E4" referredColumn="D0308AD4-9AE2-99BD-6629-F5BC87ACD943"/>
+</associations>
+</Column>
+<Column name="identificationNumber" id="D7DB1C4D-288E-EDEE-B8DF-9E361A168046">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectIdNumber</sourceObjSchema>
+<sourceObjName>identificationNumber</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>104</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdDate" id="23BFA90D-77AA-C27C-F02C-2139EAE1A84A">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectIdNumber</sourceObjSchema>
+<sourceObjName>createdDate</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastModifiedDate" id="8FC59639-AA07-D542-776E-66EB2516DDA1">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectIdNumber</sourceObjSchema>
+<sourceObjName>lastModifiedDate</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88AD79A6-2915-D936-DECF-244574A08400" name="subjectIdNumber_PK">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C026BC50-C131-3736-ABF4-6BCEBE5371C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD501691-34DE-A223-6977-6448DA40346C" name="idType">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>idType</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9085C74-F30F-994F-2CE6-71A8BCCD7AAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A13EBE2-1834-7F20-7411-E0DFA8172CE4" name="idx_idnumber">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>idx_idnumber</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7DB1C4D-288E-EDEE-B8DF-9E361A168046"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0A8DD79-95A7-C34A-D095-FC00CB71D301" name="subjectId">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>subjectId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D94BB188-63FC-65B2-2FF2-0CDA70533296"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B53C3A97-DC3F-AD61-4A1E-3A492C718700" name="subjectIdNumber_identificationType_FK">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 16:25:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9085C74-F30F-994F-2CE6-71A8BCCD7AAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
