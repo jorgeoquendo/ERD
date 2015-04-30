@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BufferPool4K class="oracle.dbtools.crest.model.design.storage.db2.BufferPool4K" name="BP44" directorySegmentName="seg_0" id="BP44">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:09:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<allBufferpools>NO</allBufferpools>
+<grantOption>NO</grantOption>
+</BufferPool4K>

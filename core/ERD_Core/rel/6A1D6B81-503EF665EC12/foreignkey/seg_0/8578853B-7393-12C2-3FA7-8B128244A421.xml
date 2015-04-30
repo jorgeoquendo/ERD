@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8578853B-7393-12C2-3FA7-8B128244A421" name="scoreVersion_model_FK">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>fk_model_versioncode</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<containerWithKeyObject>09104300-D183-499B-86CB-29047E516266</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>A5344742-A279-B2DC-377A-54A7725718DF</localFKIndex>
+<keyObject>A94A8A42-DC00-4E3F-7D37-09028A9F0399</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

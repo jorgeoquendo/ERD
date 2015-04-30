@@ -1,0 +1,1020 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71F1CB4E-BA9E-8BB8-D395-3737269FACCE" name="subjectAssessment">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>subjectAssessment</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<schemaObject>28BE4F34-3645-F801-E213-17B865220405</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="06C9D079-0294-7DDE-067E-D59146258D0C">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>id</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="externalId" id="26C2CE46-B61F-A7D3-509C-19D2A2FB68CC">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>externalId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="externalIdName" id="E1B8CF3D-FA89-BD6D-4ABD-06C703F6A3EF">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>externalIdName</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="softwareCode" id="9600A0D8-966A-B098-68C7-2B17C04B1479">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>softwareCode</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deviceName" id="BF3FA1DC-43CC-D6D1-294F-EE9641DA8F39">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>deviceName</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deviceId" id="B6E9AC9C-967A-1227-CDF4-E1E78B062F8D">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>deviceId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timezoneUTC" id="D493C22A-A8E3-6F12-AD55-D5B2F42480E3">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>timezoneUTC</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="7AF028FF-D126-CD90-D27E-C3DD7A141506">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>date</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="startTime" id="6F222963-8C87-946E-E10D-BB752D5FFFD8">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>startTime</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="submittedTime" id="4BAD8BBF-FB20-2E63-283F-FA54D684474B">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>submittedTime</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="elapsedTime" id="6886374B-E128-3F88-7B91-C71DAC106478">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>elapsedTime</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uploadTime" id="6280BBF8-C555-9395-7461-ADDF15E305EA">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>uploadTime</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="receivedTime" id="7D78AF59-460A-DB88-A680-D6B05E33AD26">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>receivedTime</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="importNotes" id="5606E63B-93C0-FABE-F5BA-2D45AEBDADFE">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>importNotes</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="assessmentResponseCache" id="5EEED97F-1956-86AE-B146-E46376B1D119">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>assessmentResponseCache</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<commentInRDBMS>see https://www.pivotaltracker.com/story/show/85525222</commentInRDBMS>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="processStartTime" id="6FE392B4-AE98-0870-682F-3B0F599473C3">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>processStartTime</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sentToHoganTime" id="6E0C1095-EE30-BA3C-C0B6-AAABB57C11AF">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>sentToHoganTime</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sentToVangentTime" id="ABD82292-714C-3941-2713-D5CC1A372DB2">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>sentToVangentTime</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="language" id="75B76270-B0B0-5BD7-1350-444195E21E70">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>language</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="currencyUnit" id="2DA7CEB0-5E6D-1008-DF4D-7946B37E95C2">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>currencyUnit</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loanOfficerId" id="3CE75B5B-18A8-40E9-8E10-AEC65F5C3F9C">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>loanOfficerId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surveyAdminId" id="DBA56180-4350-A8A5-D103-682FB1A5F598">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>surveyAdminId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="testAdminGroup" id="AFC50F64-B8AF-477D-DC12-7BBC17895BC4">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>testAdminGroup</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="D12C6D4D-5683-873C-A7BF-6BBB667285D8">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>status</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<defaultValue>complete</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statusInfo" id="C6F67965-9CB3-C746-BA89-2BFF3B23C70B">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>statusInfo</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="2DD4DED2-8984-CF19-6B35-A3AC7D39B42D">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>type</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<defaultValue>standard</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="softwareStatus" id="2163F973-97EE-819E-78DE-5F523CB67A17">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>softwareStatus</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="repeated" id="8EF6404D-3E93-3F36-F202-09E5C7349C7C">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>repeated</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<defaultValue>n</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="version" id="196F9B96-3B21-3B60-C1B7-017E26FF376B">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>version</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sessionId" id="C0270795-367E-FAAF-61CF-1BB44AADE8F4">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>sessionId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>96</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdDate" id="17A29DE6-62E1-9918-7421-312F148F91C2">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>createdDate</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastModifiedDate" id="3D3322D5-9542-F5ED-4832-04BBF2D665DC">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>lastModifiedDate</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customerAssessmentId" id="BC79153A-F867-BC30-8AC7-5C18D9B7C969">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>customerAssessmentId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<delegate>C44973D3-AF42-2134-1F17-D7182C29E9DC</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="516DAC7D-B8E4-8B66-5EED-3EBC34852E09" referredColumn="C44973D3-AF42-2134-1F17-D7182C29E9DC"/>
+</associations>
+</Column>
+<Column name="subjectId" id="417A634D-248F-775E-D84A-F6045DAB1F7A">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>subjectId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>A94A1CC2-33EC-0A41-4BAF-CCAF44DC6660</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E300E584-8B4C-6787-B85C-60EFBEDC7995" referredColumn="A94A1CC2-33EC-0A41-4BAF-CCAF44DC6660"/>
+</associations>
+</Column>
+<Column name="locationId" id="B66E4C0F-EE18-EC3F-4E89-7E188F6652E4">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>locationId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>D2BC3A39-6FF4-7538-CC92-37E549B67F02</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2A51DB7-FF89-0FFB-C65E-B0F0A061174D" referredColumn="D2BC3A39-6FF4-7538-CC92-37E549B67F02"/>
+</associations>
+</Column>
+<Column name="platformId" id="10E6FA21-9633-904D-0AB5-F605E9706799">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>platformId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>1</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customerId" id="5E80E2F9-EEC7-B12B-0077-E62110207E2C">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>customerId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loanAmount" id="A03D0063-E8F9-E5BF-323D-EB11395CF6AB">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>loanAmount</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="companyName" id="514D9CED-2596-2955-1843-DD9BE77751A2">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>companyName</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phoneNumber" id="1A53C615-7635-3358-FE04-A712ECA0CFBC">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>phoneNumber</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="busSegment" id="20F452A7-CBF2-97D7-839B-5ACAD1137D2B">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>busSegment</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="busSegment2" id="050E27FF-C2C9-89D4-E598-8821AB5A7360">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>busSegment2</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="9E8E2319-508B-C501-B7E5-7E2A4FFE20B5">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>longitude</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="42B50157-5A0D-9550-A5C4-5FC0F68186DB">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>latitude</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ip" id="D410A839-4F90-178A-7573-FDB00D9BA238">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>ip</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="784816F4-7A2A-B249-E428-4CD1A8F1DF7C">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>country</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="513E957B-373E-9F3A-51B9-95FABCD81B59">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>region</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="245B69B6-1DD6-71ED-334A-1C4CFE4C4508">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>city</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postalCode" id="6D2A2EEF-C9A0-F28D-9708-1A436EA80133">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>postalCode</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="platformSoftware" id="01375031-2734-86AA-2780-40BDD662C111">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>platformSoftware</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referer" id="E6F04FA9-782E-9FD8-B2A3-6FBB439870EC">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>referer</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="linkedTestProgress" id="66D7D554-118B-A2FD-AD48-54FC7C77F78F">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>linkedTestProgress</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<defaultValue>new</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="linkedTestStatus" id="A19E7DB1-A1E7-DB11-4B94-634FE702F33D">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>subjectAssessment</sourceObjSchema>
+<sourceObjName>linkedTestStatus</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<defaultValue>no linked test</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A897181-949C-F871-214D-EB7ABAAD264A" name="subjectAssessment_PK">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06C9D079-0294-7DDE-067E-D59146258D0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="024046E0-17F1-8F12-5968-32F6F787FF36" name="subjectAssessment__UN">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>uniqueExternalId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C2CE46-B61F-A7D3-509C-19D2A2FB68CC"/>
+<colUsage columnID="10E6FA21-9633-904D-0AB5-F605E9706799"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="148D5C15-37E4-1C50-F01E-A2756531382F" name="customerId">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>customerId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E80E2F9-EEC7-B12B-0077-E62110207E2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CF72FED-D8F6-1C2F-AE3E-67B903F5A57C" name="externalId">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>externalId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C2CE46-B61F-A7D3-509C-19D2A2FB68CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85493F72-AF5F-836F-3B79-3CCA80E97800" name="idx_createdDate">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>idx_createdDate</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17A29DE6-62E1-9918-7421-312F148F91C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F29C2A3E-BE73-27B1-375A-4422D48685F6" name="lastModifiedDate">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>lastModifiedDate</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3322D5-9542-F5ED-4832-04BBF2D665DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFAB7F08-05C4-7AE6-532F-2954A1B441F2" name="locationId">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>locationId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B66E4C0F-EE18-EC3F-4E89-7E188F6652E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01795C47-98B7-B0B7-2C27-471894E7B8B7" name="platformId">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>platformId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10E6FA21-9633-904D-0AB5-F605E9706799"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9D1334E-58C5-07F1-CBDC-85392733863F" name="receivedTime">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>receivedTime</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D78AF59-460A-DB88-A680-D6B05E33AD26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBEC7F35-11B8-6657-B0C9-C7283E30BE3F" name="repeated">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>repeated</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EF6404D-3E93-3F36-F202-09E5C7349C7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97BF1161-5B57-7588-9CDA-C07B72FBC87C" name="status">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>status</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D12C6D4D-5683-873C-A7BF-6BBB667285D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFBEA757-83AF-1D0D-7FCD-DC9A5B3A380F" name="subjectId">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>subjectId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="417A634D-248F-775E-D84A-F6045DAB1F7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC43D15E-7DDD-B28E-3361-421C7950CFD5" name="surveyAdminId">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>surveyAdminId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBA56180-4350-A8A5-D103-682FB1A5F598"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E6FB56C-709A-449B-814C-4D2F701339EF" name="type">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>type</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD4DED2-8984-CF19-6B35-A3AC7D39B42D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61CED746-E8E9-15DE-B48F-7BAC34DAECD2" name="subjectAssessment_subject_FK">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 21:50:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="417A634D-248F-775E-D84A-F6045DAB1F7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB008024-0418-9FAC-BF73-FBDF862E3A95" name="subjectAssessment_location_FK">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 14:47:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B66E4C0F-EE18-EC3F-4E89-7E188F6652E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62445FD9-2E67-B6BD-BEF6-DF8664D509BC" name="subjectAssessment_customerAssessment_FK">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 17:47:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC79153A-F867-BC30-8AC7-5C18D9B7C969"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

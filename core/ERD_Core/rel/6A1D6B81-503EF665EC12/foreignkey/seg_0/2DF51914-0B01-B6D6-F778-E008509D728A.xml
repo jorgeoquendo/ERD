@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DF51914-0B01-B6D6-F778-E008509D728A" name="answerReliability_ibfk_1">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 21:20:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<containerWithKeyObject>70BCDE4F-B69B-60D0-7F6B-8F3AC9504433</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>F9F2BAA2-7D2C-994E-0C25-D5F698FF39F7</localFKIndex>
+<keyObject>ED8FA3C6-6434-217D-2B93-629639FF5194</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

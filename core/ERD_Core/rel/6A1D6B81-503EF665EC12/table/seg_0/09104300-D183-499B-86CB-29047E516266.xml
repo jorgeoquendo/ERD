@@ -1,0 +1,254 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09104300-D183-499B-86CB-29047E516266" name="scoreVersion">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>scoreVersion</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<schemaObject>28BE4F34-3645-F801-E213-17B865220405</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="B3D526E0-8E1B-0BE8-F14B-0001CE8260F5">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>Id</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customerAssessment_id" id="E7DABE13-2771-5897-E8FD-003742880701">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>customerAssessmentId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<delegate>C44973D3-AF42-2134-1F17-D7182C29E9DC</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4352D5DA-AF25-46E7-8DBD-6625F7559A03" referredColumn="C44973D3-AF42-2134-1F17-D7182C29E9DC"/>
+</associations>
+</Column>
+<Column name="customerId" id="40319FBF-41BD-BD99-5529-53F9343EBD14">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>customerId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="versionCode" id="8FA5DCE4-FEC0-5C64-295B-DAC1377756BB">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>versionCode</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<delegate>507A8CA8-E906-F521-2525-FBCAFF00C740</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8578853B-7393-12C2-3FA7-8B128244A421" referredColumn="507A8CA8-E906-F521-2525-FBCAFF00C740"/>
+</associations>
+</Column>
+<Column name="externalVersionCode" id="53A4DE52-813B-7108-3921-EF79C8EC041C">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>externalVersionCode</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="censoring" id="F505CB7E-410F-107C-4501-9B4FB9F6D388">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>censoring</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="scoreMinVal" id="453C5EB5-B892-B59A-4F8D-77C832DDDC59">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>scoreMinVal</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="scoreMaxVal" id="CAD788A6-FC71-6024-9CDF-913D71BCAF33">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>scoreMaxVal</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="active" id="998AA18D-54B1-0886-FAA9-72F71466D6F7">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>active</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdDate" id="4A3ED1C0-A75B-505D-22E4-6AC8BA6FA9C6">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>createdDate</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastModifiedDate" id="58EDBB10-6DD0-031B-3D1D-14FB3E76AC00">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>scoreVersion</sourceObjSchema>
+<sourceObjName>lastModifiedDate</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B724D0B0-A618-A9FC-A822-A04D49F6CF72" name="scoreVersion_PK">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3D526E0-8E1B-0BE8-F14B-0001CE8260F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1663A4C3-7FB7-18A1-EF64-FB0AB46B9700" name="customerId">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>customerId</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40319FBF-41BD-BD99-5529-53F9343EBD14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8B45587-5C77-C6D8-C4DE-CA0E17EC2280" name="fk_model_versioncode">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>fk_model_versioncode</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FA5DCE4-FEC0-5C64-295B-DAC1377756BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B87B479-047A-D9BB-12CE-AE455ACF1023" name="fk_scoreVersion_customerAssessment">
+<sourceConnName>Replica</sourceConnName>
+<sourceObjSchema>mullet</sourceObjSchema>
+<sourceObjName>fk_scoreVersion_customerAssessment</sourceObjName>
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7DABE13-2771-5897-E8FD-003742880701"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5344742-A279-B2DC-377A-54A7725718DF" name="scoreVersion_model_FK">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FA5DCE4-FEC0-5C64-295B-DAC1377756BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EC8332F-2B59-79A0-67C9-43C85CEED308" name="scoreVersion_customerAssessment_FK">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7DABE13-2771-5897-E8FD-003742880701"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

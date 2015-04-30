@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="scoringVariableMap_model_FK" directorySegmentName="seg_0" id="1AAAB288-62A5-049E-C33A-8CB7260D607E">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-28 20:43:12 UTC</createdTime>
+<generatorID>628B6554-703D-2EA8-1DB9-7D9D90EC439D</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<engineerTo>
+<item key="6A1D6B81-9CDC-657D-61E9-503EF665EC12" value="true"/>
+</engineerTo>
+<sourcePk>2F58BEC2-3206-87EB-5525-C950E690683D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1BA06EC0-B1DD-BFCE-BF85-BADAA09E2BC0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD445CA6-DEDD-CBE3-0F69-6AEE0017AABA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

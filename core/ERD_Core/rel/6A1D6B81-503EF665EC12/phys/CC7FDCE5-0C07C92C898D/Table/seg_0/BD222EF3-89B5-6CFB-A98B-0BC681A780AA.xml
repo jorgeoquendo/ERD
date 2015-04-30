@@ -1,0 +1,492 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyDB2v80 class="oracle.dbtools.crest.model.design.storage.db2.v80.TableProxyDB2v80" name="customer" directorySegmentName="seg_0" id="BD222EF3-89B5-6CFB-A98B-0BC681A780AA">
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<schemaObject>28BE4F34-3645-F801-E213-17B865220405</schemaObject>
+<numberOfRows>0</numberOfRows>
+<owner>OWNER_IMPLICIT</owner>
+<materializedQuery>NO</materializedQuery>
+<mqColumnDefaults>EXCLUDING</mqColumnDefaults>
+<mqIdentityColumnAttr>EXCLUDE</mqIdentityColumnAttr>
+<mqmaintenance>BY SYSTEM</mqmaintenance>
+<mqQueryOptimization>ENABLE</mqQueryOptimization>
+<mqStatus>MATERIALIZED QUERY</mqStatus>
+<partitioned>NO</partitioned>
+<tableAccess>NOT VOLATILE</tableAccess>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="province" id="09720A04-C758-5EF8-FED7-88D749E4099F">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI35" id="8D1A9207-89B5-C5B9-8A7A-FD307FADE6C8">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>09720A04-C758-5EF8-FED7-88D749E4099F</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="templateColor" id="2247AE03-086C-1E87-230A-865FACF8E70C">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI40" id="25941AC4-A6D5-FE4F-0DAB-C051997F97C6">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>2247AE03-086C-1E87-230A-865FACF8E70C</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>red</defaultValueConstant>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="city" id="253BA211-393D-DAE6-11A4-95A90A7BE333">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI34" id="7F9BAC06-2CF2-ECD7-371A-44C0B6B7E337">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>253BA211-393D-DAE6-11A4-95A90A7BE333</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="currencyDefault" id="2769D49E-8AB0-2468-3D94-9757B87B9291">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI44" id="851FC497-D13C-2C95-6944-1727863CE685">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>2769D49E-8AB0-2468-3D94-9757B87B9291</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="liveLending" id="27DAD870-4704-BE18-F6EF-08CC1FA58AA6">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI29" id="BC709E77-959D-FCC1-B387-C008B1D041BF">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>27DAD870-4704-BE18-F6EF-08CC1FA58AA6</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>y</defaultValueConstant>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="identificationtypesmappingjson" id="336FA0F1-B1AE-6455-8F8F-27DCB8F0ED0A">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI47" id="14F187D4-BFEF-D627-ED24-FE99453CE049">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>336FA0F1-B1AE-6455-8F8F-27DCB8F0ED0A</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="timeZoneOffset" id="421C60E8-C753-EE24-B147-E5CCEBB02161">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI38" id="B33F3710-FBD1-3102-C4C7-D0886ECB6CFD">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>421C60E8-C753-EE24-B147-E5CCEBB02161</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="parentId" id="42CD082B-DE67-DF2E-8185-C4500C098987">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI25" id="7B615687-3022-BB17-E249-6D4BAD208608">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>42CD082B-DE67-DF2E-8185-C4500C098987</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="streetAddress2" id="43999D78-A77D-8E80-5621-6E19E8E67BA5">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI32" id="679BD7EB-FE1C-ACD8-097F-E4153610FE68">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>43999D78-A77D-8E80-5621-6E19E8E67BA5</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="postalCode" id="44E73290-137D-D4FB-068D-CF6971A24EEC">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI36" id="B5445A46-239B-2818-7883-98FFA4A5A390">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>44E73290-137D-D4FB-068D-CF6971A24EEC</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="customerCode" id="48CD6112-EB17-D1E4-D687-7CB47520838A">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI28" id="EEB12CD1-EE8D-5085-8975-A51286280771">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>48CD6112-EB17-D1E4-D687-7CB47520838A</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="accountManagers" id="4CA050A9-9A02-37B0-32F8-78023ED04CE0">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI45" id="6926122A-D175-8A7B-B47B-B95DF2F7EB6E">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>4CA050A9-9A02-37B0-32F8-78023ED04CE0</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>accountmanagers@eflglobal.com</defaultValueConstant>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="scoringTimeInterval" id="4EC1722A-3DF2-426E-AD4C-53600C7B5A1E">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI30" id="5C37587A-0C59-1303-7CB8-DD8D4B838CEC">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>4EC1722A-3DF2-426E-AD4C-53600C7B5A1E</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>1800</defaultValueConstant>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="dataShardId" id="50D9D558-C9B3-2053-F372-E760707019C1">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI46" id="29A4B437-8D52-4AE7-D28F-10DFD49DA89F">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>50D9D558-C9B3-2053-F372-E760707019C1</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>1</defaultValueConstant>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="createdDate" id="5132C248-A7C8-DD2E-A39D-D626A2D60B61">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI42" id="404AD25C-69A0-1CE4-80BC-901BEC48E366">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>5132C248-A7C8-DD2E-A39D-D626A2D60B61</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="brandLogo" id="513C9528-9BE4-45F3-3A44-E1F6F1FCE778">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI41" id="B2D82284-7479-AD55-5910-BB52D7CCF081">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>513C9528-9BE4-45F3-3A44-E1F6F1FCE778</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>efl_logo_white_transparent.png</defaultValueConstant>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="country" id="69D9E6F5-F0D5-B994-BF61-015251CD13AD">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI37" id="EAF5FA74-8302-8623-A2C8-019A745EDA10">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>69D9E6F5-F0D5-B994-BF61-015251CD13AD</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="lastModifiedDate" id="6D6D12D9-7F20-55BF-6123-342BA624CC29">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI43" id="D25CDD5F-6536-5E68-0062-01D18E8F0424">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>6D6D12D9-7F20-55BF-6123-342BA624CC29</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="id" id="899D0096-840E-88B6-2998-AEADCB6E8033">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI24" id="1B086712-662D-370E-724A-F27BA13F83FD">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>899D0096-840E-88B6-2998-AEADCB6E8033</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="streetAddress1" id="A3EBF018-7F4B-EB8A-6C8B-2A21539080AD">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI31" id="999199E2-0237-8746-E0F7-94FD52556459">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>A3EBF018-7F4B-EB8A-6C8B-2A21539080AD</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="streetAddress3" id="B8745B59-F44C-AF80-EE6C-6E3FD04AEF97">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI33" id="29422375-1CA5-A890-CACC-9BAAB2D66361">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>B8745B59-F44C-AF80-EE6C-6E3FD04AEF97</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="region" id="C6DF65E9-B27C-CF8E-3BDF-BAF5F69EFE38">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI27" id="66CDC41B-B361-094C-B36D-FCB5FF7514FF">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>C6DF65E9-B27C-CF8E-3BDF-BAF5F69EFE38</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="language" id="EE933BEB-0E61-0BC3-CF0C-5C582CF535D9">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI39" id="E7397ED2-ACC7-A91A-C142-82DADBFD9090">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>EE933BEB-0E61-0BC3-CF0C-5C582CF535D9</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="customerName" id="F49F247E-5C21-49B1-CA11-FB5C59BA816C">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI26" id="D5BC8AA7-57B0-0005-533E-71EF8172C627">
+<createdBy>joquendo</createdBy>
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<cache>0</cache>
+<column>F49F247E-5C21-49B1-CA11-FB5C59BA816C</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.IndexProxyDB2v80" name="customer_dataShard" id="98872467-46B9-D539-8893-1A7ABEB3AB08">
+<createdTime>2015-04-27 18:13:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>ERD_Core</ownerDesignName>
+<defer>false</defer>
+<owner>OWNER_IMPLICIT</owner>
+<whereNotNull>false</whereNotNull>
+<padded>NO</padded>
+</IndexProxy>
+</indexProxies>
+</TableProxyDB2v80>
