@@ -1,3 +1,0 @@
-Notas a los ER-D de las tablas de CORE:
-
-Archivo ERD_Core.dmd realizado con Oracle Data Modeler.

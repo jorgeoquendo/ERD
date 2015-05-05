@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<StorageDesignDB2v80 class="oracle.dbtools.crest.model.design.storage.db2.v80.StorageDesignDB2v80" name="DB2/390 8" id="EA9A50D4-FCC7-8653-F86B-1D22E19CCD2C" siteID="CC7FDCE5-F5A5-F2C0-C9A7-0C07C92C898D" siteName="DB2/390 8" siteType="1">
-<createdBy>joquendo</createdBy>
-<createdTime>2015-04-27 18:09:19 UTC</createdTime>
-<generatorID>Generado por el Usuario</generatorID>
-<ownerDesignName>ERD_Core</ownerDesignName>
-</StorageDesignDB2v80>
